@@ -7,6 +7,8 @@
     <title>exo1</title>
 </head>
 <body>
-    
+    <button id="boutton">Clique stp</button>
+    <script src="exo1.js"></script>
 </body>
+
 </html>

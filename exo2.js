@@ -7,5 +7,4 @@ function monclick(evenement){
     var peri = 2*Math.PI*ray;
     var air = Math.PI*(ray**2);
     alert ("aire :" + air + " perimetre :" + peri);
-
 }

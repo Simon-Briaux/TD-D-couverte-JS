@@ -1,11 +1,12 @@
-MaDiv = document.getElementById("button");
+Madiv = document.getElementById("boutton");
 
-MaDiv.addEventListener("click", MyClick);
+Madiv.addEventListener("click", monclick);
 
-function MyClick (evenement){
-    var long = window.prompt("Saisir une  longueur : ");
-    var larg = window.prompt("Saisir une  largueur : ");
-    var aire = long*larg;
-    var perimetre = long*2 + larg*2;
-    alert("aire : " + aire + " perimetre : " + perimetre + "");
+function monclick(evenement){
+    var long = window.prompt("saisir une longueur : ");
+    var larg = window.prompt("saisir une largeur : " );
+    var air = long*larg;
+    var peri = long*2 + larg*2;
+    alert ("aire :" + air + " perimetre :" + peri);
+
 }

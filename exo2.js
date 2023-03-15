@@ -1,10 +1,10 @@
-Madiv = document.getElementById("boutton");
-Madiv.addEventListener("click", monclick);
+MaDiv = document.getElementById("button");
 
-function monclick(evenement){
-    var long = window.prompt("saisir une longueur : ");
-    var ray = long/2;
-    var peri = 2*Math.PI*ray;
-    var air = Math.PI*(ray**2);
-    alert ("aire :" + air + " perimetre :" + peri);
+MaDiv.addEventListener("click", MyClick);
+
+function MyClick (evenement){
+    var longueur = window.prompt("Saisir une  longueur : ");
+    var aire = Math.PI * longueur * longueur;
+    var perimetre = 2 * Math.PI * longueur;
+    alert("aire : " + aire + " perimetre : " + perimetre + "");
 }

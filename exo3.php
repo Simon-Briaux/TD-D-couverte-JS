@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exo3</title>
+    <title>Document</title>
 </head>
 <body>
-    <button id="boutton">Clique stp</button>
-    <script src="exo3.js"></script>
+<button onclick="affiche()">Afficher les résultats</button>
+
+    <script src="exo3.js">
+
+</script>
 </body>
+
+
 </html>
